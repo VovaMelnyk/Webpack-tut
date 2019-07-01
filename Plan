@@ -1,0 +1,28 @@
+1 run npm init
+2 npm i -D webpack webpack-cli (-D add to devDependencies)
+3 add build script
+4 create src folder and index.js file (entry point) and index.html
+5 create second file with function and export. Import func to index.js
+6 (Temp) Run index.html file (import/export does not work);
+7 Create webpack.config.js
+8 Loaders and plugins
+9 npm i -D html-webpack-plugin html-loader
+10 add const const HtmlWebPackPlugin = require('html-webpack-plugin') - create HTML file to serve bundles
+11 module.exports = {}
+12 Create module field with obj
+13 Create rules field with arr of obj
+14 Create first rule for html (test: RegExp, use: arr.shapeOf({loader, options}))
+15 Create field plugins (arrayOf(constructors))
+16 remove script from html in src folder
+16 npm run build
+17 npm i -D webpack-dev-server
+18 add start script to package.json
+19 npm i -D @babel/core babel-loader @babel/preset-env
+20 Create rule for js and babel
+21 Try paste img into html and run npm start
+22 npm i -D file-loader
+23 create rule for images
+24 npm i -D node-sass style-loader css-loader sass-loader mini-css-extract-plugin
+25 Create style and import to index.js
+26 Create rule for styles and add css plugin
+27 Test webpack work
