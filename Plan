@@ -25,4 +25,7 @@
 24 npm i -D node-sass style-loader css-loader sass-loader mini-css-extract-plugin
 25 Create style and import to index.js
 26 Create rule for styles and add css plugin
-27 Test webpack work
+27 Add devServer config
+28 npm i -D postcss-loader
+29 npm i -D autoprefixer
+30 Test webpack work

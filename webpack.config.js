@@ -28,6 +28,12 @@ module.exports = {
             },
             {
                 test: /\.scss$/,
+                // use: [
+                //     MiniCssExtractPlugin.loader,
+                //     'css-loader',
+                //     'postcss-loader',
+                //     'sass-loader'
+                // ],
                 use: [
                     'style-loader',
                     'css-loader',
@@ -45,5 +51,9 @@ module.exports = {
             filename: "[name].css",
             chunkFilename: "[id].css"
         })
-    ]
+    ],
+    devServer: {
+        port: 9000,
+        open: true
+    }
 }
